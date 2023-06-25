@@ -1,0 +1,44 @@
+body{
+	height: 100vh;
+	background-color: grey;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.boss{
+	width: 35vw;
+	height: 70vh;
+	background-color: white;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+p{
+	font-size: 2em;
+}
+.password-box{
+	width: 15vw;
+	height: 4vh;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.eye{
+	width: 20px;
+	height: 20px;
+	background-image: url("open.png");
+	background-size: cover;
+}
+.password-input{
+	width: calc(15vw - 35px);
+	font-size: 1.2em;
+}
+.password-input, .password-input:focus{
+	outline: none;
+	border: 0;
+}
